@@ -31,22 +31,22 @@ config = Config(
 )
 
 
-config = Config(
-    out_path=Path("./out/2021.mp3"),
-    sections=[
-        Section(src=0),
-        Section(src=1),
-        Section(src=2, silent_after=30, trim=[None, -6]),
-        Section(src=2, silent_after=60),
-        Section(src=3),
-        Section(src=4, silent_after=30, trim=[None, -6]),
-        Section(src=4, silent_after=60),
-        Section(src=5),
-        Section(src=6, silent_after=30, trim=[None, -6]),
-        Section(src=6),
-    ],
-    metadata=Metadata(
-        artist="駿台",
-        album="青本"
-    ),
-)
+# config = Config(
+#     out_path=Path("./out/2021.mp3"),
+#     sections=[
+#         Section(src=0),
+#         Section(src=1),
+#         Section(src=2, silent_after=30, trim=[None, -6]),
+#         Section(src=2, silent_after=60),
+#         Section(src=3),
+#         Section(src=4, silent_after=30, trim=[None, -6]),
+#         Section(src=4, silent_after=60),
+#         Section(src=5),
+#         Section(src=6, silent_after=30, trim=[None, -6]),
+#         Section(src=6),
+#     ],
+#     metadata=Metadata(
+#         artist="駿台",
+#         album="青本"
+#     ),
+# )
